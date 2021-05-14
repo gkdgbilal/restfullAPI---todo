@@ -1,0 +1,26 @@
+app:
+  name: restfullapi
+  port: 8000
+
+security:
+  jwt:
+    exp: 10h
+    key: secret
+
+database:
+  host: localhost
+  port: 27017
+  name: resttodo
+  username:
+  password:
+
+minio:
+  host: 127.0.0.1
+  port: 9000
+  region: us-east-1
+  access: access_key
+  secret: secret_key
+
+elastic:
+  host: 127.0.0.1
+  port: 9200
